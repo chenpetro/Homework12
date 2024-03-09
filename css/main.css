@@ -12,18 +12,12 @@
   --text-color:#757575;
 }
 
+body{
+  font-family: "Roboto";
+}
+
 header{
-  font-family: "Roboto";
-  font-weight: 500;
-}
-a:hover{
-  color: var(--button-color);
-}
-main{
-  font-family: "Roboto";
-}
-footer{
-  font-family: "Roboto";
+    font-weight: 500;
 }
 
 

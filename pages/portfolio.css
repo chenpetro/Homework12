@@ -12,17 +12,13 @@
   --text-color:#757575;
 }
 
-header{
-  font-family: "Roboto";
-  font-weight: 500;
-}
-main{
-  font-family: "Roboto";
-}
-footer{
+body{
   font-family: "Roboto";
 }
 
+header{
+    font-weight: 500;
+}
 
 .logo {
 width: 145px;
