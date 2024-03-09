@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
 :root {
   --footer-color: #2f303a;
   --header-color: #ececec;
@@ -10,29 +11,55 @@
   --dark-color:#212121;
   --text-color:#757575;
 }
+
+header{
+  font-family: "Roboto";
+  font-weight: 500;
+}
+a:hover{
+  color: var(--button-color);
+}
+main{
+  font-family: "Roboto";
+}
+footer{
+  font-family: "Roboto";
+}
+
+
 .logo {
-width: 145px
-height: 31px
-top: 24px
-left: 215px
-font-family: Raleway;
+width: 145px;
+height: 31px;
+top: 24px;
+left: 215px;
+font-family: "Raleway";
 font-size: 26px;
 font-weight: 700;
 line-height: 31px;
 letter-spacing: 0.03em;
 text-align: left;
 
-font-family: Oleo Script;
+font-family: "Oleo Script";
 font-size: 26px;
 font-weight: 400;
 line-height: 36px;
 letter-spacing: 0.03em;
 text-align: left;
 }
-
-#logoWeb {color: var(--button-color)}
-#logoStudio {color: var(--dark-color);}
 #logoStudioFooter {color: var(--background-general);}
+
+#logoWeb {
+  color: var(--button-color);
+  font-family: "Raleway";
+}
+#logoStudio {
+  color: var(--dark-color);
+  font-family: "Oleo Script";
+}
+
+li{
+  list-style-type: none;
+}
 
 .first {
   background-color: var(--footer-color);
@@ -50,10 +77,10 @@ footer {
 button {
   background-color: var(--button-color);
   color: var(--background-general);
+  font-weight: 700;
 }
 
 h1 {
-  font-family: Roboto;
   font-size: 44px;
   font-weight: 900;
   line-height: 60px;
@@ -67,9 +94,15 @@ h3 {
 }
 h5 {
   color: var(--dark-color);
+  font-weight: 700;
 }
 b {
   color: var(--dark-color);
+  font-weight: 500;
+}
+
+p{
+  font-weight: 400;
 }
 .second > p {
   color: var(--text-color);
@@ -83,11 +116,11 @@ b {
   background-color: var(--background-general);
 }
 
-footer ul + {
+/* footer ul + {
   color: var(--background-general);
-}
+} */
 
-p[id="p_1"] {
+/* p[id="p_1"] {
   color: var(--background-general);
 }
 p[id="p_2"] {
@@ -97,7 +130,9 @@ p[id="p_2"] {
 p[id="p_3"] {
   color: var(--background-general);
   font-weight: 60%;
-}
+} */
+
+
 /* p {
     color: red;
   }
