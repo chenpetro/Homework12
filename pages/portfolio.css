@@ -1,0 +1,20 @@
+:root {
+    --footer-color: #2f303a;
+    --header-color: #ececec;
+    --background-general: #ffffff;
+    --button-color: #2196f3;
+    --background-second: #f5f4fa;
+    --dark-color:#212121;
+    --text-color:#757575;
+  
+  }
+
+
+
+#logoWeb {color: var(--button-color)}
+#logoStudio {color: var(--dark-color);}
+#logoStudioFooter {color: var(--background-general);}
+
+footer {
+    background-color: var(--footer-color);
+  }
