@@ -54,18 +54,11 @@ a:hover {
   color: var(--button-color);
 }
 
-.main-header {
+.main-title {
   background-color: var(--footer-color);
   width: 1600px;
   height: 600px;
   top: 80px;
-}
-
-.team {
-  background-color: var(--background-team);
-}
-footer {
-  background-color: var(--footer-color);
 }
 
 button {
@@ -116,6 +109,13 @@ h5 {
   letter-spacing: 0.03em;
   text-align: left;
 }
+.team {
+  background-color: var(--background-team);
+}
+footer {
+  background-color: var(--footer-color);
+}
+
 
 .team-item {
   width: 270px;
