@@ -17,18 +17,28 @@ body {
 
 header {
   font-weight: 500;
+  border-color: var(--header-color);
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 94px;
 }
 
+.header-navigation{
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  height: 80px;
+  flex-direction: row;
+}
 .header-navigation a {
   text-decoration: none;
   color: var(--dark-color);
 }
 
+
 .logo {
   width: 145px;
   height: 31px;
-  top: 24px;
-  left: 215px;
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -36,6 +46,8 @@ header {
   letter-spacing: 0.03em;
   text-align: left;
   text-decoration: none;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 
 .logo-web {
@@ -45,8 +57,37 @@ header {
   color: var(--dark-color);
 }
 
+.header-list{
+  display: flex;
+  width: 281px;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 93px;
+  margin-right: 300px;
+}
+
+.header-contacts{
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  }
+
+  .header-tel{
+    margin-left: 50px;
+  }
+
 li {
   list-style-type: none;
+}
+
+.main-navigation{
+display: flex;
+width: 575px;
+height: 54px;
+margin: 0 auto;
+justify-content: space-between;
+margin-bottom: 50px;
 }
 
 a:hover {
@@ -64,6 +105,12 @@ footer {
   background-color: var(--footer-color);
 }
 
+.footer{
+width: 1170px;
+margin: 0 auto;
+text-align: left;
+}
+
 button {
   background-color: var(--background-team);
   width: 125px;
@@ -77,6 +124,27 @@ button {
   line-height: 26px;
   letter-spacing: 0.03em;
   text-align: center;
+  border-radius: 4px;
+}
+
+.button-all{
+  width: 73px;
+}
+
+.button-web_sites{
+  width: 125px;
+}
+
+.button-addons{
+  width: 112px;
+}
+
+.button-design{
+  width: 103px;
+}
+
+.button-marketing{
+  width: 130px;
 }
 
 button:hover {
@@ -97,11 +165,21 @@ li {
   text-align: left;
   color: var(--text-color);
 }
+
+.main-list{
+display: flex;
+width: 1170px;
+margin: 0 auto;
+justify-content: space-between;
+flex-wrap: wrap;
+height: 1272px;
+align-content: space-between;
+margin-bottom: 94px;
+}
+
 .main-item {
   width: 370px;
   height: 404px;
-  top: 1130px;
-  left: 1015px;
   border-color: var(--item-border);
   border-width: 1px;
   border-style: solid;
@@ -129,8 +207,23 @@ h5 {
 
 .footer-email {
   color: var(--footer-contacts);
+  padding-top: 9px;
 }
 
 .footer-tel {
   color: var(--footer-contacts);
+  padding-top: 9px;
+  padding-bottom: 60px;
 }
+
+.footer-list{
+  display: block;
+  padding-top: 20px;
+}
+
+.footer{
+  width: 1170px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 60px;
+  }
